@@ -1,0 +1,51 @@
+.alumnos{
+    float: right;
+    width: 70%;
+}
+
+.formularios{
+    float: left;
+    width: 30%;
+}
+
+.formularios label{
+    display: block;
+}
+.formularios input{
+    display: block;
+    margin-bottom: 1em;
+}
+
+.formularios h2{
+    margin-top: 1em;
+    margin-bottom: .5em;
+    font-size: 1.8em;
+}
+
+.alumnos span{
+    margin-top: 1.2em;
+    margin-bottom: 2em;
+    font-size: 1.8em;
+}
+
+.submit{
+    background: #4AB536;
+    color: white;
+    padding: .5em;
+    border-radius: .5em;
+    border: none;
+}
+
+#main-submit{
+    font-size: 2em;
+    width: 300px;
+    margin-left: -150px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+}
+
+.no-alumnos{
+    text-align: center;
+    color: #BBB;
+}
